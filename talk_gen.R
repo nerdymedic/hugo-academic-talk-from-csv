@@ -9,7 +9,7 @@ write_md <- function(text, filename) {
 }
 
 #read in the talks
-talks <- read_csv("talk_generation/talks.csv", col_types = cols(.default = "c"))
+talks <- read_csv("talks.csv", col_types = cols(.default = "c"))
 
 #generate the markdown
 talks_formatted <- paste0("---
